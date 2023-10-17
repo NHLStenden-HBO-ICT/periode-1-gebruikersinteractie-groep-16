@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace spel_startscherm
+namespace ProjectGroep16
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -32,5 +32,6 @@ namespace spel_startscherm
             this.Close();
 
         }
+
     }
 }
