@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>spel_startscherm</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Schermafbeelding 2023-10-12 111057.png" />
+    <None Remove="Schermafbeelding 2023-10-12 111632.png" />
+    <None Remove="Schermafbeelding 2023-10-12 111832.png" />
+    <None Remove="Schermafbeelding 2023-10-12 112302.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Schermafbeelding 2023-10-12 111057.png" />
+    <Resource Include="Schermafbeelding 2023-10-12 111632.png" />
+    <Resource Include="Schermafbeelding 2023-10-12 111832.png" />
+    <Resource Include="Schermafbeelding 2023-10-12 112302.png" />
+  </ItemGroup>
+
+</Project>
