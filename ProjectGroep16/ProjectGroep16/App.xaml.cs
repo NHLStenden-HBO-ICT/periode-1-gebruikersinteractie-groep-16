@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 
 namespace ProjectGroep16
+
 {
     /// <summary>
     /// Interaction logic for App.xaml

@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+.vs/*
+*.lref
+*.g.cs
+ProjectGroep16/ProjectGroep16/obj/*
+

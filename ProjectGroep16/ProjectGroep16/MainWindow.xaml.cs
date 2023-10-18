@@ -24,5 +24,14 @@ namespace ProjectGroep16
         {
             InitializeComponent();
         }
+
+        private void start_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+            this.Close();
+
+        }
+
     }
 }
