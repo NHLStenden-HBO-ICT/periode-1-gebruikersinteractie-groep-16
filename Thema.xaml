@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp1.Thema"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Thema" Height="450" Width="800">
+    <Grid>
+        <Label Content="Thema" HorizontalAlignment="Center" Margin="0,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="61" Width="166" FontSize="32" FontWeight="Bold">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.12"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button Content="Terug naar Moelijkheidsgraad" HorizontalAlignment="Left" Margin="229,196,0,0" VerticalAlignment="Top" Height="79" Width="311" FontSize="20" FontWeight="Bold" Click="OpenMoelijkheidsgraad"/>
+
+    </Grid>
+</Window>
