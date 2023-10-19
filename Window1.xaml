@@ -1,11 +1,11 @@
 ﻿<Window
-    x:Class="Rick_Thema.MainWindow"
+    x:Class="Rick_Thema.Window1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:Rick_Thema"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title="MainWindow"
+    Title="Window1"
     Width="800"
     Height="450"
     mc:Ignorable="d">
@@ -88,12 +88,11 @@
         <StackPanel>
             <Label
                 x:Name="MainLabel"
-                Width="100"
-                Height="100"
+                Width="134"
+                Height="66"
+                Content="thema 2"
                 FontSize="30"
-                FontWeight="Bold">
-                thema 1
-            </Label>
+                FontWeight="Bold" />
             <Grid Width="800" Height="341">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="711*" />
@@ -105,11 +104,11 @@
                     Height="100"
                     Margin="90,100,521,133"
                     Click="FotoButton_Click"
-                    Cursor="Hand" >
+                    Cursor="Hand">
                     <Image
-                 Width="110"
-                 Height="98"
-                 Source="C:\Users\rickv\source\repos\Rick Thema\foto\kikker.jpg" RenderTransformOrigin="-0.635,0.299" />
+                        Width="110"
+                        Height="98"
+                        Source="C:\Users\rickv\source\repos\Rick Thema\foto\vos.jpg" />
                 </Button>
                 <Button
                     x:Name="Foto2Button"
@@ -121,10 +120,8 @@
                     <Image
                         Width="110"
                         Height="98"
-                        Source="C:\Users\rickv\source\repos\Rick Thema\foto\poes.jpg" />
+                        Source="C:\Users\rickv\source\repos\Rick Thema\foto\vogel.jpg" />
                 </Button>
-
-
                 <Button
                     x:Name="Foto3Button"
                     Width="100"
@@ -133,9 +130,9 @@
                     Click="Foto3Button_Click"
                     Cursor="Hand">
                     <Image
-                        Width="100"
-                        Height="100"
-                        Source="C:\Users\rickv\source\repos\Rick Thema\foto\hond.jpg" />
+                        Width="110"
+                        Height="98"
+                        Source="C:\Users\rickv\source\repos\Rick Thema\foto\panda.jpg" />
                 </Button>
                 <Button
                     x:Name="VorigeButton"
