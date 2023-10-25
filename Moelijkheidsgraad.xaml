@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFFFF8F5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="717*"/>
+            <ColumnDefinition Width="83*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="3x3" HorizontalAlignment="Left" Margin="86,131,0,0" VerticalAlignment="Top" Height="165" Width="178" Click="OpenPuzzelSpel" FontSize="20" BorderBrush="#BF4D4D" BorderThickness="3,3,3,3" FontWeight="Bold"/>
+        <Button HorizontalAlignment="Left" Margin="297,131,0,0" VerticalAlignment="Top" Height="165" Width="178" Click="OpenPuzzelSpel" FontWeight="Bold" FontSize="20" BorderBrush="#BF4D4D" BorderThickness="3,3,3,3" Content="3x4"/>
+        <Button HorizontalAlignment="Left" Margin="518,131,0,0" VerticalAlignment="Top" Height="165" Width="178" Click="OpenPuzzelSpel" FontWeight="Bold" FontSize="20" BorderBrush="#BF4D4D" BorderThickness="3,3,3,3" Content="4x4"/>
+        <Button Content="Terug" HorizontalAlignment="Left" Margin="48,352,0,0" VerticalAlignment="Top" Height="49" Width="129" FontSize="20" FontWeight="Bold" Click="OpenThemascherm" Foreground="#FFBF4D4D" BorderBrush="#BF4D4D" Background="#FFFFBC37" BorderThickness="3,3,3,3" >
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+    </Grid>
+</Window>
