@@ -1,0 +1,29 @@
+﻿<Window x:Class="SimplePuzzle.Eindscherm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimplePuzzle"
+        mc:Ignorable="d"
+        Title="Eindscherm" Height="450" Width="800">
+    <Grid Background="#FFFFF8F5">
+
+        <Button x:Name="NieuwSpel" Click="NieuwSpel_Click" Content="Nieuwe Puzzel" Command="NavigationCommands.GoToPage" CommandParameter="/MainWindow.xaml" HorizontalAlignment="Center" Height="80" Margin="0,100,0,0" VerticalAlignment="Top" Width="350" Background="#FFFFBC37" BorderBrush="#FFBF4D4D" BorderThickness="3,3,3,3" FontWeight="Bold" FontSize="24" Foreground="#FFBF4D4D">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="40"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+
+        <Button x:Name="SpelSluiten" Click="SpelSluiten_Click"  Content="Spel Sluiten" HorizontalAlignment="Center" Height="80" Margin="0,250,0,0" VerticalAlignment="Top" Width="350" Background="#FFFFBC37" BorderBrush="#FFBF4D4D" BorderThickness="3,3,3,3" FontWeight="Bold" FontSize="24" Foreground="#FFBF4D4D">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="40"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+    </Grid>
+</Window>

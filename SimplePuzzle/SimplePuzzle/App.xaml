@@ -1,0 +1,15 @@
+﻿<Application x:Class="SimplePuzzle.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="Starten.xaml">
+    <Application.Resources>
+        <DataTemplate x:Key="listPuzzle">
+            <Grid>
+                <Image Source="{Binding PuzzleImageSource}" />
+            </Grid>
+        </DataTemplate>
+        <Style TargetType="ListBoxItem">
+            
+        </Style>
+    </Application.Resources>
+</Application>
